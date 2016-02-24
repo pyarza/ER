@@ -37,7 +37,7 @@ p {
 }
 
 @media(max-width:480px) {
-    a {
+    .navbar-brand {
         font-size: 8px;
     }
 }
