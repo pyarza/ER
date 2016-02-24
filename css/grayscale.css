@@ -36,6 +36,12 @@ p {
     line-height: 1.5;
 }
 
+@media(max-width:320px) {
+    .navbar-brand {
+        font-size: 11px;
+    }
+}
+
 @media(max-width:480px) {
     .navbar-brand {
         font-size: 14px;
