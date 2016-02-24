@@ -370,6 +370,12 @@ img::-moz-selection {
     background: 0 0;
 }
 
+.list-samples {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
+}
+
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
