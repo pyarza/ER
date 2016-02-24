@@ -373,6 +373,7 @@ img::-moz-selection {
 .list-samples {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
     color: black;
 }
 
