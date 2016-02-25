@@ -57,7 +57,7 @@ p {
     }
 }
 
-@media(min-width:767px) {
+@media(min-width:1024px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
