@@ -51,7 +51,7 @@ p {
     }
 }
 
-@media(min-width:767px) {
+@media(max-width:767px) {
     p {
         font-size: 17px;
     }
