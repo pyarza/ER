@@ -354,17 +354,17 @@ ul.banner-social-buttons {
 footer {
  
     padding: 80px 0;
-    background: url(../img/map-black.jpg) no-repeat top left scroll;
+    background: url(../img/map-black.jpg) no-repeat bottom center scroll;
     display: table;
     width: 100%;
     height: auto;
     text-align: center;
     color: #fff;
     background-color: #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
     
     
 }
