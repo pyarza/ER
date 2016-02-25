@@ -52,12 +52,12 @@ p {
 }
 
 @media(max-width:767px) {
-    p {
+    .navbar-brand {
         font-size: 17px;
     }
 }
 
-@media(min-width:1024px) {
+@media(min-width:767px) {
     p {
         margin: 0 0 35px;
         font-size: 20px;
