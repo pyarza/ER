@@ -116,9 +116,14 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <div class="list-group list-samples">
-                            <a href="#" class="list-group-item">Numbers</a>
-                            <a href="#" class="list-group-item">Travel tips</a>
-                            <a href="#" class="list-group-item">Advanced grammar</a>
+
+    <a href="#" class="list-group-item example" 
+    id="example1" data-title="1. Numbers" data-file="example1.pdf">Numbers</a>
+    <a href="#" class="list-group-item example" 
+    id="example2" data-title="2. Travel tips" data-file="example1.pdf">Travel tips</a>
+    <a href="#" class="list-group-item example" 
+    id="example3" data-title="3. Advanced grammar" data-file="example1.pdf">Advanced grammar</a>
+
                         </div>
                     </div>
                 </div>
@@ -205,6 +210,22 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <script src="http://rawgit.com/saribe/eModal/master/dist/eModal.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+    
+    $('.example').on('click', function(event) {
+      event.preventDefault(); // To prevent following the link (optional)
+      eModal.iframe('./examples/' + $(this).data("file"), $(this).data("title"));
+
+    });
+
+});
+
+</script>
 
 </body>
 

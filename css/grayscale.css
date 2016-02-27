@@ -400,6 +400,11 @@ img::-moz-selection {
     color: black;
 }
 
+.modal-title {
+    color: black;
+}
+
+
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
